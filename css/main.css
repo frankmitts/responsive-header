@@ -102,6 +102,7 @@ nav ul {
     float: left;
     width: 25%;
     padding: 0;
+    padding-bottom: .75em;
   }
 
   nav ul {
@@ -118,6 +119,29 @@ nav li:last-child {
 
   nav {
     padding-left: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header h1 {
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: 4em;
+  }
+
+nav ul {
+  margin-top: 1.75em;
+}
+
+  nav a {
+    padding-right: 0;
   }
 
 }
